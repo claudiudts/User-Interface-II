@@ -1,1 +1,98 @@
-/* Add CSS styling here */
+
+.container {
+  display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: .8rem;
+	color: white;
+	width: 70%;
+}
+
+.container a {
+  color: white;
+	text-decoration: none;
+}
+
+body {
+  width:  100%;
+	font-family: "Ethnocentric";
+  font-size: 10px;
+	background-color: #499dce;
+  
+}
+
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 3rem;
+}
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lavender;
+  }
+}
+
+#BigBox {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 3rem;
+}
+
+#BigBox a {
+	display: flex;
+	position: relative;
+	align-items: center;
+}
+
+#BigBox a div {
+	position: absolute;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	right: 0%;
+	top: 50%;
+	left: 25%;
+	font-size: 2.5rem;
+	text-shadow: 2px 2px 2px thistle;
+	width: 50%;
+	text-align: center;
+	vertical-align: middle;
+	flex-direction: column;
+}
+
+#BigBox a div a button {
+	position: relative;
+	right: 50%;
+	top: 30%;
+}
+
+#main {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: space-between;
+	margin:3rem 1.5rem;
+	justify-content: space-between;
+}
+
+
+#main div p {
+	text-align: center;
+	font-size: 1.6rem;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: #499dce;
+	height: 8rem;
+	align-items: center;
+}
+
+footer a button {
+	background-color: white;
+	color: 	black;
+	font-family: "Ethnocentric";
+	text-align: center;
+	vertical-align: middle;
+} 
