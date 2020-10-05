@@ -26,9 +26,10 @@ h1 {
   justify-content: flex-start;
   font-size: 3rem;
 }
-
-nav {
-
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lavender;
+  }
 }
 
 #BigBox {
